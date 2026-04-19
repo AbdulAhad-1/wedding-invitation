@@ -298,7 +298,7 @@ export const Main = ({ phase, setTheme }: { phase: IPhase; setTheme: Dispatch<Se
                 <h2 className="font-esthetic" style={{ fontSize: "2.25rem", margin: "1rem 0" }}>
                   {groom.name} &amp; {bride.name}
                 </h2>
-                {/* <p style={{ fontSize: "1.25rem", margin: "0.5rem 0" }}>Rabu, 15 Maret 2023</p> */}
+                <p style={{ fontSize: "1rem", margin: "0.5rem 0" }}>{events[0].formatedDate}</p>
                 <button
                   className="btn-outline-dark-auto"
                   style={{ marginTop: "0.5rem" }}
@@ -350,8 +350,8 @@ export const Main = ({ phase, setTheme }: { phase: IPhase; setTheme: Dispatch<Se
               </svg>
             </div>
 
-            {/* ── BRIDE SECTION ── */}
-            <section id="bride" style={{ background: "var(--bg-primary)", textAlign: "center" }}>
+            {/* ── GROOM SECTION ── */}
+            <section id="groom" style={{ background: "var(--bg-primary)", textAlign: "center" }}>
               <h2 className="font-arabic" style={{ fontSize: "2rem", padding: "1.5rem 0 1rem" }}>
                 بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
               </h2>
@@ -951,7 +951,7 @@ export const Main = ({ phase, setTheme }: { phase: IPhase; setTheme: Dispatch<Se
             <ul className="nav-list">
               {[
                 { id: "home", icon: "fa-house", label: "Home" },
-                { id: "bride", icon: "fa-user-group", label: "Bride" },
+                { id: "groom", icon: "fa-user-group", label: "Groom" },
                 { id: "wedding-date", icon: "fa-calendar-check", label: "Wedding Date" },
                 { id: "comment", icon: "fa-comments", label: "Comments" },
                 { id: "contact", icon: "fa-phone", label: "Contact" },
