@@ -1,6 +1,5 @@
 "use client";
-"use client";
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState } from "react";
 
 declare global {
   interface Window {

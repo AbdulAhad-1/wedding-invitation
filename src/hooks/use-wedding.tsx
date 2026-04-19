@@ -1,6 +1,5 @@
 "use client";
 import { createContext, useContext, useRef, useState, useCallback, useEffect, ReactNode } from "react";
-import { CALENDAR_EVENT } from "../constants/data";
 import { ICalenderDetails } from "../constants/interfaces";
 
 declare global {
